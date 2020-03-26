@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a55de46-e13f-48bb-9678-78434e30f5af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/forntend03_20.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04/js/functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson5.1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson5.1/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +41,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson5.1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson5.1" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -80,7 +76,11 @@
       <option name="presentableId" value="Default" />
       <updated>1583518264423</updated>
       <workItem from="1583518266094" duration="15867000" />
-      <workItem from="1584723190274" duration="7751000" />
+      <workItem from="1584723190274" duration="8205000" />
+      <workItem from="1584953272511" duration="3000" />
+      <workItem from="1585068806112" duration="9085000" />
+      <workItem from="1585140303234" duration="23000" />
+      <workItem from="1585155212936" duration="3311000" />
     </task>
     <task id="LOCAL-00001" summary="first lesson">
       <created>1584128084771</created>
@@ -96,7 +96,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584453047914</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lesson 04">
+      <created>1584732791910</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584732791910</updated>
+    </task>
+    <task id="LOCAL-00004" summary="lesson 05">
+      <created>1585140147333</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585140147333</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,22 +119,26 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first lesson" />
     <MESSAGE value="lesson 03" />
+    <MESSAGE value="lesson 04" />
+    <MESSAGE value="lesson 05" />
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="165" y="80" width="953" height="621" key="CommitChangelistDialog2" timestamp="1584453047557">
+    <state x="165" y="0" width="953" height="621" key="CommitChangelistDialog2" timestamp="1585140146986">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="147" y="91" width="953" height="621" key="CommitChangelistDialog2/0.0.1280.1024@0.0.1280.1024" timestamp="1584128084493" />
-    <state x="165" y="80" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584453047557" />
+    <state x="165" y="80" key="CommitChangelistDialog2/0.0.1440.900/-207.-1080.1920.1080@0.0.1440.900" timestamp="1584732791572" />
+    <state x="165" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585140146986" />
     <state x="113" y="1" key="SettingsEditor" timestamp="1584730904272">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="113" y="1" key="SettingsEditor/0.0.1440.900/-207.-1080.1920.1080@0.0.1440.900" timestamp="1584730904272" />
-    <state x="158" y="166" key="Vcs.Push.Dialog.v2" timestamp="1584453072801">
+    <state x="158" y="166" key="Vcs.Push.Dialog.v2" timestamp="1585140150401">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="140" y="189" key="Vcs.Push.Dialog.v2/0.0.1280.1024@0.0.1280.1024" timestamp="1584128111083" />
-    <state x="158" y="166" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584453072801" />
+    <state x="158" y="166" key="Vcs.Push.Dialog.v2/0.0.1440.900/-207.-1080.1920.1080@0.0.1440.900" timestamp="1584732793877" />
+    <state x="158" y="166" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1585140150401" />
   </component>
 </project>
