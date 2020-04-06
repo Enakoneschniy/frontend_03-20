@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "parcel -p 3000 watch ./*/*.html --out-dir dist --no-cache"
+    "start": "npm run dev & npm run json",
+    "dev": "parcel -p 3000 watch ./*/*.html --out-dir dist --no-cache",
+    "json": "json-server --watch db.json --port 8080"
   },
   "keywords": [],
   "author": "Eugene Nakoneschniy",

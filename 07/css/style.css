@@ -1,0 +1,22 @@
+.modal {
+  position: absolute;
+  background: white;
+  padding: 15px;
+  border: 1px solid black;
+  display: none;
+  z-index: 1;
+}
+.modal .modal-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  background: rgba(0, 0 , 0, .3);
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
