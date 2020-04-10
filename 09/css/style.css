@@ -1,0 +1,57 @@
+.users-table {
+  width: 100%;
+  border-color: #cacaca;
+}
+.users-table th {
+  cursor: pointer;
+  padding: 5px;
+}
+.users-table td {
+  padding: 5px;
+}
+.users-table tr td:first-child {
+  color: darkblue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.modal {
+  position: absolute;
+  background: white;
+  padding: 15px;
+  border: 1px solid #cacaca;
+  border-radius: 4px;
+  display: none;
+  min-width: 300px;
+  min-height: 100px;
+  max-width: 400px;
+  z-index: 1;
+}
+
+.overlay {
+  position: absolute;
+  background: rgba(0, 0 , 0, .3);
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.remove-btn {
+  background: red;
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid red;
+}
+.add-user {
+  background: green;
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid green;
+  margin-bottom: 15px;
+}

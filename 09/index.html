@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lesson 09</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<button class="add-user">Add new user</button>
+<table class="users-table" border="1" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Username</th>
+      <th>Email</th>
+      <th>Website</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody class="table-body">
+  </tbody>
+</table>
+<div class="modal" id="info-modal">
+  <div class="modal-body"></div>
+</div>
+<div class="modal" id="add-modal">
+  <div class="modal-body">
+    <form class="add-user-form">
+      <div class="input-wrapper">
+        <input type="text" name="name" placeholder="Name">
+      </div>
+      <div class="input-wrapper">
+        <input type="text" name="username" placeholder="Username">
+      </div>
+      <div class="input-wrapper">
+        <input type="text" name="email" placeholder="Email">
+      </div>
+      <div class="input-wrapper">
+        <input type="text" name="website" placeholder="Website">
+      </div>
+      <div class="input-wrapper">
+        <input type="text" name="company.name" placeholder="Company Name">
+      </div>
+      <div>
+        <button class="save" type="submit">Save</button>
+      </div>
+    </form>
+  </div>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
