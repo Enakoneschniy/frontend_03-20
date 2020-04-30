@@ -1,0 +1,16 @@
+$load-more-bg: lightblue
+
+=btn-default
+  border: none
+  outline: none
+  cursor: pointer
+  
+=class-list($class-prefix, $css-rule, $min, $max, $step)
+  @while $min <= $max
+    .#{$class-prefix}-#{$min}
+      #{$css-rule}: #{$min}px
+    $min: $min + $step
+
++class-list(mt, margin-top, 10, 100, 10)
++class-list(mb, margin-bottom, 10, 100, 10)
++class-list(pt, padding-top, 10, 100, 10)

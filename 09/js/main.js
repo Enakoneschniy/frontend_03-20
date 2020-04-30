@@ -107,8 +107,12 @@
         resObject[item[0]] = item[1]
       } else {
         const props = item[0].split('.')
-        resObject[props[0]] = {
-          [props[1]]: item[1]
+        if(!resObject.hasOwnProperty(props[0])) {
+          resObject[props[0]] = {
+            [props[1]]: item[1]
+          }
+        } else {
+          resObject[props[0]][props[1]] = item[1]
         }
       }
     })

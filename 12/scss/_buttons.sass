@@ -1,0 +1,14 @@
+@import "variables"
+
+.btn
+  padding: 5px
+  font-size: 16px
+  +btn-default
+  
+  &.load-more-btn
+    background: $load-more-bg
+    border: 2px solid darken($load-more-bg, 10)
+    transition: background-color .2s
+    
+    &:hover
+      background: darken($load-more-bg, 10)

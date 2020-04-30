@@ -15,8 +15,10 @@
     "@babel/plugin-proposal-class-properties": "^7.7.4",
     "@babel/plugin-proposal-private-methods": "^7.8.3",
     "@babel/plugin-transform-runtime": "^7.7.4",
+    "autoprefixer": "^9.7.6",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-runtime": "^6.23.0",
+    "postcss-modules": "^2.0.0",
     "sass": "^1.24.3"
   },
   "dependencies": {
